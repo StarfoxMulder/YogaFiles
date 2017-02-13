@@ -1,0 +1,9 @@
+main {
+	background-image: url("The-X-Files-background.jpg");
+}
+
+#relCharFace {
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}

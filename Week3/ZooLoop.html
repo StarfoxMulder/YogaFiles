@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loop through arrays</title>
+</head>
+<body>
+
+<script>
+	zooAnimals = ["Zebra", "Rhino", "Giraffe", "Owl"];
+
+	for(i=0; i<zooAnimals.length; i++){
+		console.log(zooAnimals[i]);
+	}
+
+	for(i=0; i<5; i++){
+		console.log("I am "+i);
+	}
+
+	var myFarm = ["chickens", "pigs", "cows", "horses", "ostriches"];
+
+	for(i=0; i<myFarm.length; i++){
+		console.log(myFarm[i]);
+		if(myFarm[i].charAt(0) == "c" || myFarm[i].charAt(0) == "o"){
+			alert("Starts with a c or an o!");
+		}
+	}
+	
+</script>
+</body>
+</html>

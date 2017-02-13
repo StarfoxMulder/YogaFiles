@@ -1,0 +1,8 @@
+**Instructions**:
+  * Make a page with a a simple timer that sends an alert and plays a sound after 15 seconds.
+  * Have it send an alert when 5 seconds has passed, 10 seconds has passed and when the time is up.
+  * You will use this to time the break!
+
+* **File**: [Activities/5-SimpleTimer/skeleton/simple_timer.html](simple_timer.html)
+
+

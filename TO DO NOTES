@@ -1,0 +1,31 @@
+CryptoGifs
+- Update README
+X- fix http/https mismatch
+
+Schneider's Deli
+-- Changed burgers_db to hotdogs_db
+-- Changed table burgers to hotdogs
+-- Changed burger_name to meal_name
+-- Changed burger_date to meal_date
+-- Changed burger.js to hotdog.js
+- Update README
+- connect sequelzie to heroku
+- Association Idea - track timestamp, track how long meals stay in each stage, then have a running average time for each down at the bottom?
+
+Soundboard
+- Update README
+- Figure out playback controls
+- Add playback toggle
+
+30 Second Pitch
+
+Portfolio
+- draft
+- iteratively rebuild
+- get custom URL
+
+MongoDB Homework
+
+New Skills
+- PHP
+- Python

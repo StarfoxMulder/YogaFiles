@@ -1,0 +1,26 @@
+#firstPost {
+	font-family: 'Muli', sans-serif;
+	color: #777777;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+#secondPost {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #111111;
+	font-size: 25px;
+	font-weight: bolder;
+	line-height: 18px;
+}
+
+#thirdPost {
+	font-family: 'Exo 2', sans-serif;
+	color: #777777;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height: 35px;
+}
+h4 {
+	font-family: 'Lobster', cursive;
+}

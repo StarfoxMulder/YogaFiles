@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loop through arrays</title>
+</head>
+<body>
+
+<script>
+	zooAnimals = ["Zebra", "Rhino", "Giraffe", "Owl"];
+
+	for(i=0, i<zooAnimals.length; i++){
+		console.log(zooAnimals[i]);
+	}
+	
+</script>
+</body>
+</html>

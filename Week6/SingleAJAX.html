@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script type="text/javascript">
+	var title = 'frozen';
+	var queryURL = "http://www.omdbapi.com/?t=" + title + "&y=&plot=short&r=json";
+
+	$.ajax({url: queryURL, method: 'GET'}).done(function(response) {
+	     console.log(response);
+
+	     console.log(response.Runtime)
+	}); 
+
+</script>
+
+
+</body>
+</html>
+
+<!--
+        //the below code fills in the first row of the table
+        var type = 'mr+nobody';
+        var queryURL = "http://www.omdbapi.com/?t=" + type + "&y=&plot=short&r=json";
+
+
+        $.ajax({
+            url: queryURL,
+            method: 'GET'
+        })
+        .done(function(response) {
+
+            // Example Movie
+            var firstRowTds = $('table').children().eq(1).children('tr').eq(0).children('td');
+
+            firstRowTds.eq(0).text(response.Title);
+
+            firstRowTds.eq(1).text(response.Year);
+
+            firstRowTds.eq(2).text(response.Actors);
+        });
+
+        //Second Movie
+        var type1 = 'The+Screaming+skull';
+        var queryURL = "http://www.omdbapi.com/?t=" + type1 + "&y=&plot=short&r=json";
+
+
+        $.ajax({
+            url: queryURL,
+            method: 'GET'
+        })
+        .done(function(response) {
+
+            // Example Movie
+            var firstRowTds = $('table').children().eq(1).children('tr').eq(1).children('td');
+
+            firstRowTds.eq(0).text(response.Title);
+
+            firstRowTds.eq(1).text(response.Year);
+
+            firstRowTds.eq(2).text(response.Actors);
+        });
+
+        //Third Movie
+        var type2 = 'Citizen+Kane';
+        var queryURL = "http://www.omdbapi.com/?t=" + type2 + "&y=&plot=short&r=json";
+
+
+        $.ajax({
+            url: queryURL,
+            method: 'GET'
+        })
+        .done(function(response) {
+
+            // Example Movie
+            var firstRowTds = $('table').children().eq(1).children('tr').eq(2).children('td');
+
+            firstRowTds.eq(0).text(response.Title);
+
+            firstRowTds.eq(1).text(response.Year);
+
+            firstRowTds.eq(2).text(response.Actors);
+        });
+
+        //Fourth Movie
+        var type3 = 'Little+Shop+of+horrors';
+        var queryURL = "http://www.omdbapi.com/?t=" + type3 + "&y=&plot=short&r=json";
+
+
+        $.ajax({
+            url: queryURL,
+            method: 'GET'
+        })
+        .done(function(response) {
+
+            // Example Movie
+            var firstRowTds = $('table').children().eq(1).children('tr').eq(3).children('td');
+
+            firstRowTds.eq(0).text(response.Title);
+
+            firstRowTds.eq(1).text(response.Year);
+
+            firstRowTds.eq(2).text(response.Actors);
+        });
+
+        //Fifth Movie
+        var type4 = 'Resurrection+Mary';
+        var queryURL = "http://www.omdbapi.com/?t=" + type4 + "&y=&plot=short&r=json";
+
+
+        $.ajax({
+            url: queryURL,
+            method: 'GET'
+        })
+        .done(function(response) {
+
+            // Example Movie
+            var firstRowTds = $('table').children().eq(1).children('tr').eq(4).children('td');
+
+            firstRowTds.eq(0).text(response.Title);
+
+            firstRowTds.eq(1).text(response.Year);
+
+            firstRowTds.eq(2).text(response.Actors);
+        });
+ -->

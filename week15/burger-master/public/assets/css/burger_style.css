@@ -1,0 +1,82 @@
+body {
+	background-image: url("../img/burgerbackground.jpg");
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	padding: 20px;
+	color: ivory;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	background: rgba(35,25,10,.9);
+	padding: 15px;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 2px groove black;
+}
+
+.burgerDivs {
+	background: rgba(35,25,10,.6);
+	padding: 20px;
+	border: 1px groove black;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#burgerAva {
+	float: left;
+	list-style-type: none;
+	font-size: 16px;
+	text-align: center;
+}
+
+#burgerAva li {
+	list-style-type: none;
+	margin: 5px;
+    font-size: 16px;
+}
+
+form {
+	font-size: 16px;
+}
+
+button {
+	padding: 8px;
+	border-radius: 10px;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: ivory;
+	background: transparent;
+	border: 1px solid transparent;
+}
+
+	button:hover {
+		background: rgba(35,25,10,.4);
+		color: white;
+		border: 1px solid black;
+	}
+
+#burgerAva ul {
+	padding: 5px;
+}
+
+#burgerAda{
+	float: right;
+	width: 20%;
+	height: 310px;
+	text-align: center;
+}
+
+#burgersOutta {
+	float: right;
+	width: 65%;
+	margin: 0 auto;
+}
+
+#burgersOutta li {
+	list-style-type: none;
+}
+

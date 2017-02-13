@@ -1,0 +1,60 @@
+What was the name of Bishopville's sheriff:
+
+A) Christopher Davis
+B) Landon Browntown
+C) Liston Truesdale
+D) Harry Too
+
+
+
+In relation to the Fermi Paradox,
+we are currently which type of civilization?
+
+A) Below Type I
+B) Type I
+C) Between Type I and Type II
+D) Type II
+
+
+
+A gypsy tried to swindle Brian out of $300
+by having him purchase:
+
+A) Holywood
+B) Black Tremoline
+C) Candles
+D) A Zapper
+
+
+Answer: What is Sequelize?
+	A promise-based ORM for Node.js and io.js
+
+Answer: What advantages does it offer?
+	- Testing (having separate databases for dev.Env and one for production)
+	- Open Source (greater functionality and uptime than something you build yourself)
+	- MUCH easier to use than mySQL Workbench for creating and manipulating data within a SQL database!!!!
+
+Answer: How do I install it? How do I incorporate it into my app?
+	- npm install --save sequelize
+	- var sequelize = new Sequelize('database', 'username', 'password', {
+		  host: 'localhost',
+		  dialect: 'mysql'|'mariadb'|'sqlite'|'postgres'|'mssql',
+
+		  pool: {
+		    max: 5,
+		    min: 0,
+		    idle: 10000
+		  },
+
+		  // SQLite only
+		  storage: 'path/to/database.sqlite'
+		});
+
+		// Or you can simply use a connection uri
+		var sequelize = new Sequelize('postgres://user:pass@example.com:5432/dbname');
+
+
+Answer: What the heck is a Sequelize model? What role will it play?
+	- A model represents a table in the database.  The class model is how we will interact with our data!
+
+Answer: Let's say I have the below table in MySQL.
